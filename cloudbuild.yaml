@@ -29,12 +29,12 @@ substitutions:
     _GKE_CLUSTER: cluster-1
     
     #Repository Specific configuration. DevOps can change this settings
-    _DEPLOYMENTNAME: cdcdtestappname-service
-    _CONTAINERNAME: cdcdtestappname-service  
+    _DEPLOYMENTNAME: cdcdtestappname-service-service
+    _CONTAINERNAME: cdcdtestappname-service-service
     _REPO_NAME: cicd-service
     
     # Developers ONLY change
-    _VERSION: v3.0
+    _VERSION: v4.0
     
 options:
     substitution_option: 'ALLOW_LOOSE'
