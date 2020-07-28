@@ -1,11 +1,11 @@
 steps:
     # build the container image
   - name: "gcr.io/cloud-builders/docker"
-    args: ["build", "-t", "gcr.io/bulletin-board-284204/testcicd", "."]
+    args: ["build", "-t", "gcr.io/velvety-maker-283305/testcicd", "."]
 
     # push container image
   - name: "gcr.io/cloud-builders/docker"
-    args: ["push", "gcr.io/bulletin-board-284204/testcicd"]
+    args: ["push", "gcr.io/velvety-maker-283305/testcicd"]
 
 
 
